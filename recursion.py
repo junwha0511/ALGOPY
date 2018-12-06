@@ -1,9 +1,12 @@
-def func(n):
-    if n<0:
-        return
-    return func(n-1)
+def rec(a):
+    if a<10:
+        return rec(a+1)
+    if a==10:
+        return a
 
-def asdfas(n):
-    return 'FREFRWEFERFREWF'
-
-print(asdfas(5))
+print(rec(6))
+#rec(1)
+#rec(2)
+#rec(3)
+#rec(4)
+#rec(10)

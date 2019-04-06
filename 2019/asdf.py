@@ -1,0 +1,23 @@
+import turtle as t 
+def dotting(distance, space):
+    for i in range(0, int(distance/space)):
+        t.penup()
+        t.forward(space)
+        t.dot()
+t.shape('arrow')
+t.speed('fast')
+dotting(80,10)
+t.left(360/7)
+dotting(80,10)
+t.left(360/7)
+dotting(80,10)
+t.left(360/7)
+dotting(80,10)
+t.left(360/7)
+dotting(80,10)
+t.left(360/7)
+dotting(80,10)
+t.left(360/7)
+dotting(80,10)
+t.left(360/7)
+dotting(80,10)
